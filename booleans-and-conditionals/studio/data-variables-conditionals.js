@@ -1,4 +1,10 @@
 // Initialize Variables below
+let engineIndicatorLight = "red blinking";
+let spaceSuitsOn = true;
+let shuttleCabinReady = true;
+let crewStatus = spaceSuitsOn && shuttleCabinReady;
+let computerStatusCode = 200;
+let shuttleSpeed = 15000;
 
 // add logic below to verify total number of astronauts for shuttle launch does not exceed 7
 
