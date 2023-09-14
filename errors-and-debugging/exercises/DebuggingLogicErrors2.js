@@ -10,7 +10,7 @@ let fuelLevel = 17000;
 // let computerStatus = 'green';
 
 if (fuelLevel >= 20000) {
-   console.log('Fuel level cleared.');
+   console.log('LaunchReady.');
    launchReady = true;
 } else {
    console.log('WARNING: Insufficient fuel!');

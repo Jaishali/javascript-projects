@@ -17,17 +17,17 @@ if (fuelLevel >= 20000) {
    launchReady = false;
 }
 
-console.log("launchReady = ", launchReady);
+
 
 if (crewStatus && computerStatus === 'green'){
    console.log('Crew & computer cleared.');
-   launchReady = true;
+   launchReady = 'true';
 } else {
    console.log('WARNING: Crew or computer not ready!');
-   launchReady = false;
+   launchReady = 'false';
 }
 
-console.log("launchReady = ", launchReady);
+//console.log("launchReady = ", launchReady);
 
 // if (launchReady) {
 //    console.log('10, 9, 8, 7, 6, 5, 4, 3, 2, 1...');
