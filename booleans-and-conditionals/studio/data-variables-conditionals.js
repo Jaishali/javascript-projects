@@ -44,3 +44,6 @@ console.log("weatherStatus" +weatherStatus);
 console.log("------------------------------------------------");
 console.log("Have a safe flight");
 }
+
+
+
