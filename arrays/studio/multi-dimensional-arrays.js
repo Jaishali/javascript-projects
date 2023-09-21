@@ -27,12 +27,6 @@ console.log(cargoHold);
 console.log(cargoHold[0][3]);
 
 //4) Use bracket notation and a template literal to display the contents of the selected cabinet. If the user entered an invalid number, print an error message.
-let userinput = " enter invalid number";
-if(userinput==3){
-    console.log("error message");
-}else{
-    console.log("message");
-}
-//console.log(cargoHold);
+
 
 //5) Modify the code to query the user for BOTH a cabinet in cargoHold AND a particular item. Use the 'includes' method to check if the cabinet contains the selected item, then print “Cabinet ____ DOES/DOES NOT contain ____.”
