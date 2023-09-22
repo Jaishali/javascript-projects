@@ -91,4 +91,4 @@ module.exports = {
   askForNumber: askForNumber,
   generatePassword: generatePassword,
   runProgram: runProgram
-};
+}
