@@ -10,8 +10,8 @@ let fuelLevel = 0, numAstronauts = 0; altitude = 0;
 
 /*Exercise #4: Construct while loops to do the following:
   a. Query the user for the starting fuel level. Validate that the user enters a positive, integer value greater than 5000 but less than 30000. */
- /* while (fuelLevel <= 5000 || fuelLevel > 30000 || isNaN(fuelLevel)) {
-    fuelLevel = ("Enter the starting fuel level: ");
+    /* while (fuelLevel <= 5000 || fuelLevel > 30000 || isNaN(fuelLevel)) {
+    fuelLevel =("Enter the starting fuel level: ");
     console.log(fuelLevel);
  }*/
 
@@ -22,7 +22,8 @@ let fuelLevel = 0, numAstronauts = 0; altitude = 0;
 
 
 //b. Use a second loop to query the user for the number of astronauts (up to a maximum of 7). Validate the entry.
- while(numAstronauts<=7){
+ while(numAstronauts<1 || numAstronauts>7||isNaN(numAstronauts)){
+  numAstronauts=("Enter number of astronauts");
    console.log(numAstronauts);
    numAstronauts++;
 
