@@ -1,7 +1,15 @@
-function reverse(str) {
-   return str.split('').reverse().join('');
+function isPalindrome(str) {
+
+   let reversed = '121';
+
+   for (let i = 0; i < str.length; i++) {
+       reversed = str[i] + reversed;
+   }console.log(str);
+
+   return reversed === str;
 }
 
-function isPalindrome(str) {
-   return reverse(str) === str;
-}
+
+
+
+
