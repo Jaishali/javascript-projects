@@ -11,14 +11,14 @@ function makeLine(size) {
 }
 console.log(makeLine(5));
 //2.makeSquare(size) function:
-function makeLine(size) {
+function makeSquare(size) {
     let line = '';
     for (let i = 0; i < size; i++) {
       line += '#' +'\n';
     }
     return line;
   }
-  console.log(makeLine(5));
+  console.log(makeSquare(5));
 
 //3.makeRectangle(width, height) function:
 function makeRectangle(width, height)
@@ -33,7 +33,7 @@ function makeRectangle(width, height)
     return rectangle.slice(0, -1);
     
   }
-  console.log(makeRectangle(5, 3));
+  console.log(makeRectangle(8, 3));
 
 function makeLine(size) {
     let line = '';
@@ -93,11 +93,12 @@ function makeLine(size) {
   
 //7.makeDiamond(height) function:
   function makeDiamond(height) {
-    let triangle = '';
+    let topHalf =makeIsoscelesTriangle(height);
+    let bottomHalf = reverse(topHalf);
     for (let i = 0; i < height; i++) {
-      triangle += (makeLine(height - i - 1, 2*i + 1) + '\n');
+     // triangle += (makeLine(height - i - 1, 2*i + 1) + '\n');
     }
-    return triangle.slice(0, -1);
+    return `${topHalf}\n${bottomHalf}`;
   }
 console.log(makeDiamond(5));
 function reverse(str) {
@@ -109,11 +110,5 @@ function reverse(str) {
 
     return reversed;
 }
-  function makeLine(size) {
-    let line = '';
-    for (let i = 0; i < size; i++) {
-        line += '#';
-    }
-          return line;
-  };
+  
   
