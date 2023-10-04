@@ -14,3 +14,7 @@ function randomArrayElement(arr){
     let index = Math.floor(Math.random()*arr.length);
     return arr[index];
 }
+
+console.log(typeof randomArrayElement);
+console.log(randomArrayElement('odd'));
+console.log(randomArrayElement('even'));
