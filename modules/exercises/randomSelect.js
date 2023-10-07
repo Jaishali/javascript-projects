@@ -4,5 +4,5 @@ function randomFromArray(arr){
   return arr[index];
 }
 
-//TODO: Export the randomFromArray function.
-console.log( typeof randomFromArray);
+//TODO: Export the randomFromArray function:
+module.exports = randomFromArray;

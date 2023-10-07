@@ -1,5 +1,6 @@
 
 let launchcode = {
+    organization = "nonprofit";
   
 }
 

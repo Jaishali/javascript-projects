@@ -23,5 +23,4 @@ module.exports = {
   averageForTest: averageForTest
 };
 
- module.exports = averageForStudent;
- module.exports = averageForTest;
+ 
