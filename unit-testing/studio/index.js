@@ -15,7 +15,7 @@ let launchcode = {
             return "Rocks!";
         }
     }
-}
+};
 
 module.exports = launchcode;
 
