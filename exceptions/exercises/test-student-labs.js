@@ -1,12 +1,12 @@
 function gradeLabs(labs) {
   for (let i=0; i < labs.length; i++) {
     let lab = labs[i];
-    let result = lab.runLab(3);
+   // let result = lab.runLab(3);
     try{
     console.log(`${lab.student} code worked: ${result === 27}`);
   
-  }catch(TypeError){
-
+  }catch(err){
+    console.log("result");
   }
       
     }
