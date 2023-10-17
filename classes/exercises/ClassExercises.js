@@ -42,7 +42,7 @@ class Book {
 // Declare the objects for exercises 2 and 3 here:
 let prideAndPrejudice = new Novel('Pride and Prejudice', 'Jane Austen', 1813, '1111111111111', 432, 32, 'No' );
 let shuttleBuildingManual = new Manual('Top Secret Shuttle Building Manual', 'Redacted', 2013, '0000000000000', 1147, 1, 'No');
-// Code exercises 4 & 5 here:
+//// Code exercises 4 & 5 here:
 prideAndPrejudice.checkout(160);
 prideAndPrejudice.dispose(2023);
 shuttleBuildingManual.checkout(160);
