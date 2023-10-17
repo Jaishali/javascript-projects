@@ -40,11 +40,12 @@ class Book {
     }
  }
 // Declare the objects for exercises 2 and 3 here:
-//let makingTheShip = new Novel('Pride and Prejudice', 'Jane Austen', 1813, '1111111111111', 432, 32, 'No' );
-let makingTheShip = new Manual('Top Secret Shuttle Building Manual', 'Redacted', 2013, '0000000000000', 1147, 1, 'No');
+let prideAndPrejudice = new Novel('Pride and Prejudice', 'Jane Austen', 1813, '1111111111111', 432, 32, 'No' );
+let shuttleBuildingManual = new Manual('Top Secret Shuttle Building Manual', 'Redacted', 2013, '0000000000000', 1147, 1, 'No');
 // Code exercises 4 & 5 here:
-console.log(makingTheShip);
-console.log(100);
-console.log();
-console.log(5);
-console.log();
+prideAndPrejudice.checkout(160);
+prideAndPrejudice.dispose(2023);
+shuttleBuildingManual.checkout(160);
+shuttleBuildingManual.dispose(2023);
+console.log(prideAndPrejudice);
+console.log(shuttleBuildingManual);
